@@ -17,6 +17,9 @@ time, mark, audio, video{
     vertical-align:baseline;
     background:transparent;
 }
+html{
+    overflow-x: hidden;
+}
 a{
     text-decoration: none;
 }
