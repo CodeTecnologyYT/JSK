@@ -18,9 +18,10 @@ header .header_logo{
     position: relative;
 }
 header .header_logo img{
+    width: 103px;
     position: absolute;
     left: 5rem;
-    margin-top: -19%;
+    margin-top: -89px;
 }
 
 header .social-link{
