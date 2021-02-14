@@ -21,7 +21,7 @@
 
 .section-service .section-body .service_item .item_img .item_img_container {
     font-size: 13rem;
-    background-color: var(--fourthColor);
+    background-color: #5e1c00;
     color: white;
     width: 15rem;
     height: 15rem;
@@ -36,12 +36,15 @@
     cursor: pointer;
     transition: 0.3s ease-out;
 }
+.section-service .section-body .service_item .item_img .item_img_container img{
+    width: 80%;
+}
 .section-service .section-body .service_item .item_img:hover .item_img_container{
-    background-color: darkred;
+    background-color: #4a1701;
 }
 
 .section-service .section-body .service_item .item_img:hover:after{
-    border: 5px solid darkred;
+    border: 5px solid #4a1701;
 }
 
 .section-service .section-body .service_item .item_img:after {
@@ -49,7 +52,7 @@
     width: calc(100% - 2rem);
     height: 100%;
     display: inline;
-    border: 5px solid var(--fourthColor);
+    border: 5px solid #4a1701;
     position: absolute;
     box-sizing: border-box;
     z-index: -1;
@@ -81,12 +84,12 @@
 
 .section-service .section_background {
     position: absolute;
-    top: -2%;
-    transform: scaleX(-1) rotate(19deg);
+    top: 10%;
     color: #e4e4e4c4;
     font-size: 32rem;
-    right: 1rem;
+    right: 0;
     z-index: 1;
+    opacity: 0.5;
 }
 @media screen and (min-width: 900px) and (max-width: 1074px) {
     .section-service .section-body{
@@ -95,6 +98,9 @@
     .section-service .section-body .service-location{
         top: 20rem;
         left: 0rem;
+    }
+    .section-service .section-body .service_item .item_img .item_img_container img{
+        width: 60%;
     }
 }
 @media screen and (min-width: 600px) and (max-width: 900px) {
@@ -116,6 +122,9 @@
     .section-service .section_background{
         display: none;
     }
+    .section-service .section_background{
+        width: 100%;
+    }
     .section-service .section-body .service-location .item_img:after {
         top: -10px;
         left: -10px;
@@ -123,6 +132,9 @@
     .section-service .section-body .service-location .item_img:after {
         top: -10px;
         left: -10px;
+    }
+    .section-service .section-body .service_item .item_img .item_img_container img{
+        width: 60%;
     }
 }
 @media screen and (max-width: 600px) {
@@ -139,7 +151,7 @@
         font-size: 30px;
     }
     .section-service .section-body .service_item .service_description{
-        width: 200px;
+        width: 220px;
         font-size: 25px;
         font-weight: bold;
     }
@@ -149,5 +161,8 @@
     .section-service .section-body .service-location  .item_img:after {
         top: -10px;
         left: -10px;
+    }
+    .section-service .section-body .service_item .item_img .item_img_container img{
+        width: 70%;
     }
 }

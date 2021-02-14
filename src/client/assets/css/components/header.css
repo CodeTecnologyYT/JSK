@@ -26,9 +26,9 @@ header .header_logo{
     background-color: var(--thirdColor);
 }
 header .header_logo img{
-    width: 103px;
+    width: 72px;
     position: absolute;
-    left: 5rem;
+    left: 11rem;
     margin-top: -89px;
 }
 
