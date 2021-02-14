@@ -16,6 +16,14 @@ header .header_logo{
     border-right: 4rem solid rgba(0, 0, 0, 0);
     background-clip: padding-box;
     position: relative;
+    transition: 0.4s ease-out;
+    cursor: pointer;
+}
+header .header_logo:hover{
+    width: 22rem;
+}
+header .header_logo{
+    background-color: var(--thirdColor);
 }
 header .header_logo img{
     width: 103px;
