@@ -12,9 +12,31 @@
 }
 .section-history .section-body .history-image{
     width: 50%;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
 }
+.section-history .section-body .history-image .history-image_content{
+    height: min-content;
+    position: relative;
+}
+.section-history .section-body .history-image .history-image_content:after{
+    content: "";
+    width: 200px;
+    height: 120%;
+    background-color: orange;
+    position: absolute;
+    z-index: -2;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
 .section-history .section-body .history-image img{
     width: 100%;
+    z-index: 20;
 }
 @media screen and (max-width: 900px) {
     .section-history .section-body .history-image {

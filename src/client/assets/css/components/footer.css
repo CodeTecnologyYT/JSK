@@ -6,11 +6,3 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
-footer .social-link{
-    display: flex;
-    color: var(--thirdColor);
-    font-size: 21px;
-}
-footer .social-link .social_icon{
-    margin: 10px;
-}

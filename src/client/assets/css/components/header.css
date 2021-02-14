@@ -14,20 +14,14 @@ header .header_logo{
     border-top: 100px solid orange;
     border-right: 4rem solid rgba(0, 0, 0, 0);
     background-clip: padding-box;
+    position: relative;
 }
 header .header_logo img{
     position: absolute;
-    top: 50%;
     left: 5rem;
-    transform: translateY(-50%);
+    margin-top: -19%;
 }
 
 header .social-link{
-    display: flex;
-    align-items: center;
-    color: var(--thirdColor);
     font-size: 35px;
-}
-header .social-link .social_icon{
-    margin: 10px;
 }
