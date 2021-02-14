@@ -2,7 +2,7 @@
 window.onload = () =>{
     const el = document.querySelector('#loading_content');
     el.style.opacity= 0;
-    el.style.display= "none";
+    el.style.zIndex = "-1000";
 }
 
 document.addEventListener('DOMContentLoaded', function () {
