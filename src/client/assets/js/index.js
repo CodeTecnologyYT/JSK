@@ -1,4 +1,10 @@
 // https://splidejs.com/
+window.onload = () =>{
+    const el = document.querySelector('#loading_content');
+    el.style.opacity= 0;
+    el.style.display= "none";
+}
+
 document.addEventListener('DOMContentLoaded', function () {
     new Splide('#slider-promotion', {
         type: 'loop',
