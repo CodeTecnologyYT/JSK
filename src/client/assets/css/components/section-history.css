@@ -1,0 +1,27 @@
+.section-history{
+    background-color: var(--section_history_bg);
+}
+.section-history .section-body{
+    margin-top: 1rem;
+    display: flex;
+}
+.section-history .section-body .history-text{
+    width: 50%;
+    text-align: justify;
+    padding-right: 2.5rem;
+}
+.section-history .section-body .history-image{
+    width: 50%;
+}
+.section-history .section-body .history-image img{
+    width: 100%;
+}
+@media screen and (max-width: 900px) {
+    .section-history .section-body .history-image {
+        display: none;
+    }
+    .section-history .section-body .history-text{
+        width: 100%;
+        padding-right: 0;
+    }
+}

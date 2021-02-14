@@ -1,0 +1,33 @@
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+header .header_logo{
+    background-color: var(--thirdColor);
+    width: 20rem;
+    height: 0;
+    border-top: 100px solid orange;
+    border-right: 4rem solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+}
+header .header_logo img{
+    position: absolute;
+    top: 50%;
+    left: 5rem;
+    transform: translateY(-50%);
+}
+
+header .social-link{
+    display: flex;
+    align-items: center;
+    color: var(--thirdColor);
+    font-size: 35px;
+}
+header .social-link .social_icon{
+    margin: 10px;
+}

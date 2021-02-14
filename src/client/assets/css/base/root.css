@@ -1,0 +1,18 @@
+:root{
+
+    /*Coleres*/
+    --primaryColor : white;
+    --secondColor: #fbc918;
+    --thirdColor : #d97f03;
+    --fourthColor : #aa3030;
+
+
+    --section_history_bg: white;
+
+    --footerColor: black;
+    --footerTextColor: white;
+
+    /**rutas*/
+    --main_section_imagen : url("../../img/main_background.jpg");
+    --contact_section_imagen : url("../../img/londo.jpg");
+}
