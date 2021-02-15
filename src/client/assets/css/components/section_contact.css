@@ -9,7 +9,7 @@
     -webkit-background-size: cover;
 }
 .section-contact .section-body form{
-    background-color: #000000d1;
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     color: white;

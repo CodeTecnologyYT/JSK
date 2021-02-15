@@ -35,7 +35,7 @@
     flex-direction: column;
     justify-content: center;
     width: calc(90% - 56px);
-    background-color: #0000009c;
+    background-color: rgba(0, 0, 0, 0.5);
     padding-left: 5rem;
     line-height: 2.5rem;
     z-index: 10;
