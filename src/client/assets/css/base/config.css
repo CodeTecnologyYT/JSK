@@ -16,11 +16,9 @@ time, mark, audio, video{
     outline:0;
     vertical-align:baseline;
     background:transparent;
-    color: black;
 }
 html{
     overflow-x: hidden;
-    background-color: white;
 }
 a{
     text-decoration: none;
