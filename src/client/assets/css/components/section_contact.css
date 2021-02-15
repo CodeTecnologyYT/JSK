@@ -2,6 +2,11 @@
     background: var(--contact_section_imagen);
     color: white;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
 }
 .section-contact .section-body form{
     background-color: #000000d1;
