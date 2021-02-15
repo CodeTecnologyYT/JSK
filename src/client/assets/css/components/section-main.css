@@ -7,9 +7,12 @@
     overflow-x: hidden;
     overflow-y: hidden;
     position: relative;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    background-position: center bottom;
+    background-attachment: scroll;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    -ms-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
