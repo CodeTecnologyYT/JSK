@@ -1,5 +1,5 @@
 .section-contact{
-    background: var(--contact_section_imagen);
+    background-image: var(--contact_section_imagen);
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
