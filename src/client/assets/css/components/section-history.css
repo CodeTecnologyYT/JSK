@@ -1,5 +1,6 @@
 .section-history{
-    background-color: var(--section_history_bg);
+    background-color: white;
+    color: black;
 }
 .section-history .section-body{
     margin-top: 1rem;

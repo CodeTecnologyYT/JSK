@@ -1,4 +1,7 @@
-
+.section-promotion{
+    background: white;
+    color: black;
+}
 .section-promotion .section-body{
     position: relative;
     padding: 0 5rem;
