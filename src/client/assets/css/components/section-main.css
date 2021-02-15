@@ -1,6 +1,6 @@
 .section-main{
     height: 100vh;
-    background: var(--main_section_imagen);
+    background-image: url("../../img/main_background.png");
     color: white;
     display: flex;
     align-items: center;
