@@ -7,3 +7,9 @@ footer{
     align-items: center;
     padding: 4rem 6rem;
 }
+
+@media screen and (max-width: 600px) {
+    footer{
+        padding: 4rem 1rem;
+    }
+}
