@@ -1,5 +1,5 @@
 .section-contact{
-    background-image: var(--contact_section_imagen);
+    background-image: url("../../img/merida.png");
     color: white;
     background-size: cover;
     background-repeat: no-repeat;

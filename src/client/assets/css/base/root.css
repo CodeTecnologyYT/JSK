@@ -12,7 +12,4 @@
     --footerColor: black;
     --footerTextColor: white;
 
-    /**rutas*/
-    --main_section_imagen : url("../../img/main_background.png");
-    --contact_section_imagen : url("../../img/merida.png");
 }
