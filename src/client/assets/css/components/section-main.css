@@ -30,6 +30,7 @@
     padding-left: 5rem;
     line-height: 2.5rem;
     z-index: 10;
+    box-sizing: border-box;
 }
 .section-main .main-body:after {
     content: "";
